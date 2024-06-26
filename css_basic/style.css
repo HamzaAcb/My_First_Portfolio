@@ -28,4 +28,105 @@ body {
     overflow-y: auto;
     background-color: #f1f1f1; /* Optional: for better visualization */
   }
+  /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7e6; /* Light green background */
+  }
+  
+  /* Flexbox layout */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #ffffff; /* White background for article */
+    border-right: 1px solid #b3e6b3; /* Light green right border */
+    color: #2d572c; /* Dark green text color */
+  }
+  
+  aside {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f0fff0; /* Very light green background for aside */
+    color: #2d572c; /* Dark green text color */
+  }
+  
+  /* Header and footer styles */
+  header, footer {
+    background-color: #2d572c; /* Dark green background */
+    color: white; /* White text color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #b3e6b3; /* Light green color for logo */
+  }
+  
+  /* Responsive styles for .works_on_smartphone class */
+  .works_on_smartphone {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .works_on_smartphone main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .works_on_smartphone article, .works_on_smartphone aside {
+    flex: none;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  /* Article content styles */
+  article h1 {
+    color: #2d572c; /* Dark green */
+  }
+  
+  article p {
+    color: #4d7c4d; /* Medium green */
+    line-height: 1.6;
+  }
+  
+  /* Additional styles for links, buttons, etc. */
+  a {
+    color: #1a3d1a; /* Darker green for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #4d7c4d; /* Medium green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3a5f3a; /* Darker green on hover */
+  }
   
